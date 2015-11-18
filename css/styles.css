@@ -15,6 +15,23 @@
   padding: 0 0.3em;
 }
 
+.full-bleed {
+  margin: 0 -0.9375rem;
+}
+
+.tint-box {
+  background: #eee;
+  padding: .9375rem;
+  padding-top: 0;
+  margin-bottom: .9375rem;
+  border-bottom: 1px solid #ccc;
+}
+
+.ruled {
+  border: solid #ccc;
+  border-width: 0 1px 0 1px;
+}
+
 .muted {
   color: #999;
 }

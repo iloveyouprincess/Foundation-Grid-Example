@@ -17,20 +17,20 @@ html(lang="en")
 		title Foundation Grid
 	body
 		.row
-			.columns.small-12.large-4
+			.columns.small-4
 				h1 SiteName
 
-			.columns.small-12.large-8
+			.columns.small-8
 				ul.inline-list.right.top-actions
 					li: a.fi-mail(href="") Newsletter
 					li: a.fi-rss(href="") RSS
 					li.hide-for-small-only |
 					li: form.row.collapse
-						.column.small-4.medium-4: label Register
-						.column.small-6.medium-6: input(type="text")
-						.column.small-2.medium-2: a.button.postfix(href="") Go
+						.columns.small-4: label Register
+						.columns.small-6: input(type="text")
+						.columns.small-2: a.button.postfix(href="") Go
 		.row
-			.column.small-12
+			.columns.small-12
 				dl.sub-nav
 					dd.active: a(href="") Home
 					dd: a(href="") Comics
@@ -38,11 +38,11 @@ html(lang="en")
 					dd: a(href="") Concerts
 					dd: a(href="") YouTube
 		.row
-			.column.small-5
+			.columns.small-5
 				include includes/col-1
 
-			.column.small-4
+			.columns.small-4.ruled
 				include includes/col-2
 				
-			.column.small-3
+			.columns.small-3
 				include includes/col-3
